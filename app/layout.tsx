@@ -1,4 +1,4 @@
-import './global.css';
+import './globals.css';
 export const metadata = {
   title: 'Handy Creations',
   description: 'Interior Design, Graphic Design, Web Desing in Kenya',
