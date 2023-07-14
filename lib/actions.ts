@@ -42,9 +42,11 @@ const makeGraphQLRequest = async (query: string, variables = {}) => {
 };
 
 export const fetchAllProjects = (category?: string | null, endcursor?: string | null) => {
-  const categoryValue = category === undefined ? null : category;
   client.setHeader("x-api-key", apiKey);
-  return makeGraphQLRequest(projectsQuery, { category: categoryValue, endcursor });
+  console.log("hello1");
+  console.log(category, endcursor);
+  console.log("hello2");
+  return makeGraphQLRequest(projectsQuery, { category, endcursor });
 };
 
 export const createNewProject = async (form: ProjectForm, creatorId: string, token: string) => {

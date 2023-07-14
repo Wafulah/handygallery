@@ -12,12 +12,12 @@ export const NavLinks = [
     "Full-Stack",
     "Mobile",
     "UI/UX",
-    "Game Dev",
+    "Poster",
     "DevOps",
     "Data Science",
     "Machine Learning",
-    "Cybersecurity",
-    "Blockchain",
+    "Interior Design",
+    "Graphic Design",
     "E-commerce",
     "Chatbots"
   ]
